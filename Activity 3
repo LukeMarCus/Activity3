@@ -1,0 +1,620 @@
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{
+	int am;
+	int ad;
+	int ay;
+	int b = 1;
+	int c = 2;
+	int d = 3;
+	int e = 4;
+	int f = 5;
+	int g = 6;
+	int h = 7;
+	int i = 8;
+	int j = 9;
+	int k = 10;
+	int l = 11;
+	int m = 12;
+
+
+	cout << "-------------------------" << endl;
+	cout << "ENTER TH DATE" << endl;
+	cout << "-------------------------" << endl;
+
+	cout << endl;
+	cout << endl;
+
+	cout << "-------------------------" << endl;
+	cout << "Enter the month in number: ";
+	cin >> am;
+	cout << "-------------------------" << endl;
+
+	cout << endl;
+	cout << endl;
+
+	if (am == b)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 31)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is January " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == c)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 28)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is February " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == d)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 31)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is March " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+
+		}
+	}
+
+	else if (am == e)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 30)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is April " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == f)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 31)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is May " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == g)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 30)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is June " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == h)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 31)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is July " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == i)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 31)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is August " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == j)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 30)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is September " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == k)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 31)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is October " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == l)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 30)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is November " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else if (am == m)
+	{
+		cout << "-------------------------" << endl;
+		cout << "Enter the day: ";
+		cin >> ad;
+		cout << "-------------------------" << endl;
+
+		cout << endl;
+		cout << endl;
+
+		if (ad > 31)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else if (ad < 1)
+		{
+			cout << "-------------------------" << endl;
+			cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+		}
+
+		else
+		{
+			cout << "-------------------------" << endl;
+			cout << "Enter the year: ";
+			cin >> ay;
+			cout << "-------------------------" << endl;
+
+			cout << endl;
+			cout << endl;
+
+
+			cout << "-------------------------" << endl;
+			cout << "The date you entered is December " << ad << ", " << ay << endl;
+			cout << "-------------------------" << endl;
+		}
+
+	}
+
+	else
+	{
+
+		cout << "-------------------------" << endl;
+		cout << "The date you are entering is not in Midgard's calendar.\n Close the program and try it again." << endl;
+		cout << "-------------------------" << endl;
+
+	}
+
+
+
+
+	_getch();
+	return 0;
+}
